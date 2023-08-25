@@ -28,7 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-CSRF_TRUSTED_ORIGINS = ['http://192.168.56.10']
+CSRF_TRUSTED_ORIGINS = ['http://192.168.56.10', 'http://localhost:8080']
 
 # HTTPS Settings
 SESSION_COOKIE_SECURE = True
